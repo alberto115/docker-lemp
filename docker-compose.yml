@@ -1,5 +1,5 @@
 app:
-  image: abesiyo/php:7.0-fpm-dev
+  image: php:7.0-fpm
   links:
     - db
   volumes_from:
